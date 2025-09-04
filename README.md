@@ -1,3 +1,44 @@
+# BookAstors
+
+A React Native mobile application for booking and managing hostel accommodations.
+
+## Clone and Setup
+
+```bash
+# Clone the repository
+git clone https://github.com/MarckITAnalysts/book_astors.git
+
+# Navigate to project directory
+cd book_astors
+
+# Install dependencies
+npm install
+
+# Install iOS dependencies (macOS only)
+cd ios && pod install && cd ..
+
+# Start the application
+npm start
+
+# Run on iOS (macOS only)
+npm run ios
+
+# Run on Android
+npm run android
+```
+
+## Project Structure
+
+```
+src/
+├── app/          # App entry point
+├── assets/       # Images, fonts, etc.
+├── components/   # Reusable components
+├── navigation/   # Navigation configuration
+├── screens/      # Screen components
+└── service/      # API services
+```
+
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
 # Getting Started
@@ -66,7 +107,7 @@ This is one way to run your app — you can also build it directly from Android 
 
 Now that you have successfully run the app, let's make changes!
 
-Open `App.tsx` in your text editor of choice and make some changes. When you save, your app will automatically update and reflect these changes — this is powered by [Fast Refresh](https://reactnative.dev/docs/fast-refresh).
+Open `App.tsx` in your text editor of choice and make some changes. When you save, your app will automatically update and reflect these changes — this is powered by [Fast Refresh](https://reactnative.dev/docs/fast-refresh).
 
 When you want to forcefully reload, for example to reset the state of your app, you can perform a full reload:
 
